@@ -1,0 +1,24 @@
+.nav-pills > li > a.active {
+  background-color: #ffffff ;
+  color: red;
+
+}
+
+.nav-item{
+  text-align: center;
+}
+
+.navbar-nav >li > a.active{
+  border-bottom: #ffffff solid 2px;
+}
+
+.nav-pills > li > a:hover {
+  color: gray !important;
+}
+
+.nav-link-color {
+  color: #ffffff;
+}
+.navbar-brand:hover{
+  border-top: solid white 1px ;
+}
