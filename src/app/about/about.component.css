@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+  margin: 1rem;
+  font-family: 'Seaweed Script', cursive;
+}
+span{
+  font-family: 'Seaweed Script', cursive;
+}
+.card{
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: teal;
+}
+.card-title{
+  color:rgb(216, 245, 245);
+  border-radius: 0.5rem;
+}
+.card-text{
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+img{
+  width: 275px;
+  height: 345px;
+  object-position: center;
+  object-fit:scale-down;
+  border-radius: 0.5rem;
+  box-shadow:0.5rem 0.5rem rgb(183, 226, 226);
+}

@@ -1,9 +1,3 @@
-.nav-pills > li > a.active {
-  background-color: #ffffff ;
-  color: red;
-
-}
-
 .nav-item{
   text-align: center;
 }
@@ -21,4 +15,8 @@
 }
 .navbar-brand:hover{
   border-top: solid white 1px ;
+}
+
+nav{
+  background-color: teal;
 }
