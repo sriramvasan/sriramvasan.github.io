@@ -1,0 +1,26 @@
+.progress-bar{
+  background-color: black;
+  /* font-weight: bolder;
+  color: black; */
+
+}
+
+
+.progress-container {
+  position: relative;
+
+}
+
+
+.progress-container .progress-badge {
+  color: black;
+  font-weight: bold;
+  font-size:1em;
+  padding: 5% 0 5% 0;
+  text-transform: uppercase;
+}
+
+
+
+
+

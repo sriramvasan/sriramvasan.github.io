@@ -7,9 +7,26 @@ html, body { height: 100%; }
 body {
   margin: 0;
   /* font-family: Roboto,"Helvetica Neue", sans-serif; */
-  font-family:'Montserrat, sans-serif;';
+  /* font-family:'Montserrat, sans-serif;'; */
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 
  }
  *{
-   font-family: 'Montserrat, sans-serif;';
+   /* font-family: 'Montserrat, sans-serif;'; */
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
+  }
+  h2{
+    /* font-family: 'Montserrat, sans-serif;'; */
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+
  }
+.btn{
+  margin: 1%;
+}
+section{
+  position: relative;
+  padding: 1%;
+  margin:  1%;
+}
+

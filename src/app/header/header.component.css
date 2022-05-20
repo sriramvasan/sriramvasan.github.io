@@ -3,7 +3,7 @@
 }
 
 .navbar-nav >li > a.active{
-  border-bottom: #ffffff solid 2px;
+  border-bottom: #ffffff solid 1px;
 }
 
 .nav-pills > li > a:hover {
@@ -18,5 +18,6 @@
 }
 
 nav{
-  background-color: teal;
+  /* background-color: teal; */
+  background-color: black;
 }

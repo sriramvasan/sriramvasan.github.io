@@ -1,12 +1,15 @@
 
 .typing-demo {
+  overflow: hidden;
   width: 44ch;
   animation: typing 3.5s steps(44), blink .5s step-end infinite alternate;
   white-space:nowrap;
   overflow:hidden;
-  border-right: 3px solid teal;
-  font-family:'Courier New', Courier, monospace;;
-  font-size: 1.5em;
+  /* border-right: 3px solid teal; */
+  border-right: 3px solid black;
+  font-family: 'Montserrat, sans-serif;';
+  letter-spacing: .05em;
+  font-size: 1.35em;
   font-weight: bold;
   margin: 2rem;
 }
@@ -23,4 +26,108 @@
   50% {
     border-color: transparent
   }
+
+}
+
+.profile-image a {
+  position: relative;
+}
+
+.profile-image img {
+  position: relative;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  border: 15px solid transparent;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.profile-image a:hover img {
+  -webkit-transform: scale(1.06, 1.06);
+          transform: scale(1.06, 1.06);
+}
+
+
+.content-center{
+  position: inherit;
+  top: 50%;
+  bottom: 50%;
+  text-align: center;
+  width: 100%;
+  margin: 2vh;
+}
+.header-cover{
+  /* position: relative;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -1; */
+  /* background-image: 'assets/' url('assets/BackgroundCalcs.webp');   */
+  position: relative;
+  width: 100%;
+  height:fit-content;
+  margin: 1%;
+}
+.content-wrap{
+  overflow: hidden;
+  position: relative;
+  height: max-content;
+}
+.content-bg{
+  opacity: 0.3;
+  position: absolute;
+  width: 100%;
+  height:fit-content;
+  min-height: fit-content;
+}
+.content-body{
+  position: relative;
+  min-height: auto;
+  margin: 1%;
+}
+
+.button-container .btn-default {
+  margin-right: 8px;
+}
+.button-container {
+  text-align: center;
+  margin-top: -106px;
+}
+
+.links{
+  text-decoration: none;
+  margin: 1%;
+  color: black;
+  font-weight: bold;
+}
+.links:hover{
+  border-right: solid black 10px ;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.social{
+  position: relative;
+  margin: -1%;
+}
+
+.btn-round {
+  border-width: 1px;
+  border-radius: 30px;
+  padding: 11px 23px;
+  background-color: black;
+  color: white;
+}
+.btn-round:hover{
+  border-radius: 40px ;
 }
