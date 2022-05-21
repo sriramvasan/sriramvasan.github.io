@@ -105,8 +105,8 @@ body{
 .main-timeline .date-outer:before,
 .main-timeline .date-outer:after {
   content: "";
-  width: 125px;
-  height: 125px;
+  width: 140px;
+  height: 140px;
   margin: 0 auto;
   border-radius: 50%;
   position: absolute;
