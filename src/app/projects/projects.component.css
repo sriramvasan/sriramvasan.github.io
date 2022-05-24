@@ -2,9 +2,26 @@
 transform: scale(.5) translateY(-50%) translateX(-50%);
 /* transform: translateX(-10%); */
 border-radius: 5px;
+align-items: center;
 
 }
 .tableau2{
 transform:  scale(1);
 
 }
+.card{
+  background-color: gray;
+}
+
+.card-title{
+  background-color: black;
+  color: white;
+  font-size: larger;
+  /* border-radius: 5px; */
+  padding: 7px;
+  margin: 0;
+}
+.link-btn:hover{
+  background-color: gray;
+}
+
